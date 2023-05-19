@@ -7,10 +7,15 @@ li{
 ul{
     display: grid;
     grid-template-columns: 5% 10% 10% 10% 40% 5% 5% 5% 5%;
+    grid-column-gap:0;
     justify-content: space-between;
 }
 .imagen-perfil{
     width: 25px;
     height: 25px;
     border-radius: 50%;
+}
+.pinterest-icon{
+    width: 24px;
+    height:24px;
 }
