@@ -17,6 +17,17 @@ ul{
     height: 25px;
     border-radius: 50%;
 }
+.imagen-perfil:hover{
+    box-shadow: 0 0 10px 10px #87878738;
+}
+.boton-imagen{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.boton-imagen:hover{
+    box-shadow: 0 0 10px 10px #87878738;
+}
 .pinterest-icon{
     width: 24px;
     height:24px;
