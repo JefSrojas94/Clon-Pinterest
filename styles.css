@@ -125,3 +125,32 @@ img{
     column-gap: .1em;
 }
 
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 480px) {
+    
+    
+    input.search{
+        padding: 9px 10px 9px 32px;
+        width: 20vw;
+        outline: none;
+        border: none;
+        font-size: 18px;
+        border-radius: 0px 50px 50px 0px;
+        color: black;
+        border: transparent ;
+        background: #87878738;
+    }
+    .navbar-pinterest{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttons{
+        width: 40%; 
+        font-size: 13px;  
+    }
+
+}
+@media screen and (max-width: 320px) {}
