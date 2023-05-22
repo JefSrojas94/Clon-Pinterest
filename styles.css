@@ -105,21 +105,23 @@ main{
     margin-top: 60px;
 }
 .card-image{
-    background-color: aqua;
+    
     width: auto;
     position: relative;
     overflow: hidden;
     
 }
-.card-image:hover img{
-    transform: scale(1.09);
+.card-image:hover .contents{
+    top: 0;
 }
 .card-image img{
     width: 100%; 
     transition: all 0.5s;
+    cursor: zoom-in;
 }
-.content{
+.contents{
     background-color: rgba(0, 0, 0, .7);
+    border-radius: 15px;
     position: absolute;
     top: -100%;
     left:0;
@@ -139,10 +141,13 @@ main{
 }
 .guardar:hover{
     background-color:rgb(189, 25, 25) ;
+    cursor: pointer;
 }
-
-
-
+.link{
+    font-size: 1.5rem;
+    margin:15px;
+    color: white;
+}
 .gallery{
     columns: 5 260px;
     column-gap: 2em;
