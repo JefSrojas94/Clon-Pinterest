@@ -100,6 +100,7 @@ header{
     width: 100%;
     transition: 0.7s;
     background-color: white;
+    z-index: 1;
 }
 main{
     margin-top: 60px;
@@ -152,6 +153,7 @@ main{
     columns: 5 260px;
     column-gap: 2em;
     row-gap: 2em;
+    z-index: -1;
 }
 
 @media screen and (max-width: 1024px) {}
